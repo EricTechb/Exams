@@ -70,7 +70,8 @@ hr {
 
 
 h1{
-    margin-bottom: 7vh;
+    margin: 40px;
+    margin-bottom: 50px;
 }
 
 #a {
@@ -96,7 +97,7 @@ a:hover {
 
 section {
     text-align: center;
-    margin-bottom:10vh;
+    margin-bottom:50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,9 +109,8 @@ section {
 
 .vertical-line {
     width: 1px; /* Width of the line */
-    height: 240px; /* Height of the line, subtract 50px from the total height */
+    height: 248px; /* Height of the line, subtract 50px from the total height */
     position: absolute; /* Position the line in the middle of the page */
-    margin-top: 10px; 
     left: 50%; /* Center the line horizontally */
     border-right: 1px solid darkgrey; /* Add a border to create the line */
 }
@@ -130,18 +130,6 @@ h2 {
 
 @keyframes h2 {
     from {left: -1%;}
-    to {left: 0px;}
-}
-
-span {
-    margin: 3%;
-    position: relative;
-    animation: span 1s;
-    transition: transform .2s;
-}
-
-@keyframes span {
-    from {left: -3%;}
     to {left: 0px;}
 }
 
