@@ -3,7 +3,9 @@
     justify-content: center;
     z-index: 1;
 }
-
+.abox {
+    margin: 5px 10px;
+}
 .box {
     background-color: #eef3f7;
     height: 240px;
@@ -12,7 +14,6 @@
     border: 1px solid black;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
     overflow: hidden;
-    margin: 5px 10px;
     cursor: pointer;
 
     text-align: center;
@@ -51,7 +52,7 @@
 .box:hover {
     transform: scale(1.04);
     font-size: 1.25rem;
-    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.35);
 }
 
 hr {
@@ -107,7 +108,7 @@ section {
 
 .vertical-line {
     width: 1px; /* Width of the line */
-    height: 40vh; /* Height of the line, subtract 50px from the total height */
+    height: 240px; /* Height of the line, subtract 50px from the total height */
     position: absolute; /* Position the line in the middle of the page */
     margin-top: 10px; 
     left: 50%; /* Center the line horizontally */
@@ -115,7 +116,7 @@ section {
 }
 
 #aseco {
-    height: 25vh;
+    height: 150px;
 }
 
 
